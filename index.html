@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>GitFav</title>
+
+   <link rel="stylesheet" href="style.css">
+   <script type="module" src="./js/main.js" defer></script>
+</head>
+<body>
+   <div id="app">
+      <header>
+         <img src="./assets/Gitfav-loog.svg" alt="Logo">
+
+         <div class="search">
+            <label for="input-search" class="sr-only">Digite o Github username que quer favoritar</label>
+            <input id="input-search" type="text" placeholder="Digite o Github username que quer favoritar">
+            <button>
+               <img src="./assets/Vector.png" alt="">
+               Favoritar
+            </button>
+         </div>
+      </header>
+
+      <table>
+         <thead>
+            <tr>
+               <th>Usuario</th>
+               <th>Repositories</th>
+               <th>Followers</th>
+               <th>Ação</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            <tr>
+               <td class="user">
+                  <img src="https://github.com/gusfngg.png">
+                  <a href="https://github.com/gusfngg" target="_blank">
+                     <p>Gustavo Campos</p>
+                     <span>/gusfngg</span>
+                  </a>
+               </td>
+               <td class="repositories">88</td>
+               <td class="followers">188</td>
+               <td>
+                  <button class="remove">Remover</button>
+               </td>
+            </tr>
+
+            <tr>
+               <td class="user">
+                  <img src="https://github.com/diego3g.png">
+                  <a href="https://github.com/diego3g" target="_blank">
+                     <p>Pedro Camargo</p>
+                     <span>/pedrixx</span>
+                  </a>
+               </td>
+               <td class="repositories">88</td>
+               <td class="followers">188</td>
+               <td>
+                  <button class="remove">Remover</button>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</body>
+</html>

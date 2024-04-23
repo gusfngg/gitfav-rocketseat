@@ -1,4 +1,4 @@
-# GitFav - Rocketseat, Challenge
+## GitFav - Rocketseat, Challenge
 
 > Project made to search for Github users, made with JavaScript - CHALLENGE
 
